@@ -6,9 +6,12 @@ Minimalistic Jekyll theme for docs built with TailwindCSS
 
 Create a file in your repo called `_config.yaml` with the following contents:
 
-```
-remote_theme: nathanclevenger/docs
-title: Docs - Clean & Simple Theme for your Docs on GitHub Pages
-description: 
-icon: 🚀
+```json
+{
+  "user": {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "image": "https://avatars.github.com/12345.png",
+    "claims": "database:edit"
+}
 ```
